@@ -1,0 +1,21 @@
+/* Anything specific to Food Menu page will go in here */
+
+/*
+Primary Green: #1C5253
+ - Dark - #00292B
+Secondary Red: #B5174A
+Tertiary Beig: #FFFED5
+*/
+
+
+div.menu_filter{
+    max-width: 100%;
+    min-height: 200px;
+    background-color: #00292B;
+}
+
+div.menu{
+    background-color: #1C5253;
+    max-width: 100%;
+    min-height: 600px;
+}

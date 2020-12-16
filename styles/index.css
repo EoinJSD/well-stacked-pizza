@@ -1,0 +1,77 @@
+/*
+Primary Green: #1C5253
+ - Dark - #00292B
+Secondary Red: #B5174A
+Tertiary Beig: #FFFED5
+*/
+body{
+    display: flex;
+    align-content: normal;
+    height: 100vh;
+    justify-content: center;
+    background: url('../resources/pizzas/welcome_screen.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+main.welcome_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 41, 43, 0.7);
+}
+
+div.login_container{
+    max-width: 600px;
+    background-color: antiquewhite;
+    padding: 30px;
+    /*flex styles*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.login_container ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+div.login_container ul li{
+    text-align: center;
+    padding: 15px 10px;
+    width: 200px;
+}
+
+div.login_container ul li:hover{
+    background-color: rgb(0, 107, 107);
+}
+
+div.login_container ul li a{
+    text-decoration: none;
+    color: brown;
+    padding: 8% 20%;
+}
+
+div.login_container ul li a:hover{
+    text-decoration: none;
+    color: rgb(255, 212, 93);
+    padding: 8%;
+}
+
+a.other_info{
+    padding: 100px 0px 0px 0px;
+    text-decoration: none;
+    color: cornflowerblue;
+    font-weight: 300;
+    font-size: 9pt;
+}
+
+a.other_info:hover{
+    color: darkcyan;
+}

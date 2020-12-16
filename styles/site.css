@@ -1,0 +1,82 @@
+*{box-sizing: border-box;} 
+/* this star/asterisk above refers to ALL elements. The Box-Sizing*/
+
+/**
+Colours
+
+Primary Green: #1C5253
+Secondary Red: #B5174A
+Tertiary Beig: #FFFED5
+
+**/
+
+body{
+	padding: 	0px;
+	margin:		0px;
+	font-family:	sans-serif;
+}
+
+h3, h1, h2{
+	padding: 0;
+	margin: 0;
+}
+
+p{
+	width:	max-content;
+	padding: 0;
+	margin: 0;
+}
+
+main.container{
+	width: 100%;
+}
+
+.page_heading{
+	color: #B5174A;
+	text-shadow: 0px 1px 1px #FFFED5;
+}
+
+/* header and navigation styling */
+header{
+	width: 				100%;
+	background-color:	#B5174A;
+	display: 			flex;
+	flex-wrap:			wrap;
+	justify-content:	center;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+}
+
+/*talking directly to the element*/
+div.logo{
+	width: 100%;
+	text-align: center;
+	width: 600px;
+}
+
+div.logo img{
+	filter: invert();
+
+}
+
+ul.links{
+    list-style-type: none; /*removes the bullet points from the list*/
+    margin: 0; /*removing default margin*/
+    padding: 0; /*removing default padding*/
+}
+
+ul.links li{
+	/*note the space after ul.links - this is where I tell 
+	the browser to style the <li> after the element with <ul class="links">*/
+	display: inline; /* makes the list run in a line instead  of on top of eachother*/
+	padding: 20px;
+	color: #fffed5;
+}
+
+ul.links li a{
+	text-decoration: none;
+	color: #fffed5;
+}
