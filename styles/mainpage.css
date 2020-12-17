@@ -43,8 +43,20 @@ div.quick_pizza_container p{
 /* Main Content Styles */
 section.signature_pizzas{
 	max-width: 100%;
-	min-height: 200px;
 	background-color: #1C5253;
+}
+
+div.pizza{
+	width: 150px;
+	padding: 12px;
+}
+
+div.pizza .image img{
+	width: 100%;
+}
+
+div.pizza .pizza_desc{
+	font-size: 9pt;
 }
 
 section.meal_deals{

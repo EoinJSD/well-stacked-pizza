@@ -54,11 +54,11 @@ footer{
 div.logo{
 	width: 100%;
 	text-align: center;
-	width: 600px;
 }
 
 div.logo img{
 	filter: invert();
+	width: 400px;
 
 }
 
