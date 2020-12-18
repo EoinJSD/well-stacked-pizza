@@ -28,3 +28,33 @@ div.menu{
     max-width: 100%;
     min-height: 600px;
 }
+
+div.option{
+    width: 800px;
+    /* height: 400px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #FFFFFF;
+}
+
+div.option .image{
+    width: 200px;
+    height: 200px;
+}
+
+div.option .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+div.info_container{
+    padding: 15px;
+}
+
+div.interactions{
+    display: flex;
+    flex-wrap: nowrap;
+    flex: 1;
+}
