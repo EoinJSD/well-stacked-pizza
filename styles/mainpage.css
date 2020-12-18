@@ -4,6 +4,7 @@ Colours
 Primary Green: #1C5253
  - - #00292B
 Secondary Red: #B5174A
+ - - #7F0023
 Tertiary Beig: #FFFED5
 
 **/
@@ -40,30 +41,93 @@ div.quick_pizza_container p{
 	color:#FFFED5;
 }
 
+
 /* Main Content Styles */
+/* Signature Pizzas*/
 section.signature_pizzas{
-	max-width: 100%;
 	background-color: #1C5253;
+	display: flex;
+	overflow-x: auto;
+	padding: 100px 0px;
 }
 
 div.pizza{
-	width: 150px;
-	padding: 12px;
+	margin: 30px;
+	width: min-content;
+}
+
+div.pizza .image{
+	height: 280px;
+    width: 288px;
 }
 
 div.pizza .image img{
 	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
-div.pizza .pizza_desc{
-	font-size: 9pt;
+.pizza_desc{
+	background-color: #7F0023;
+	color: #FFFED5;
+	padding: 15px;;
 }
+
+.pizza_desc h4{
+	font-size: x-large;
+    margin: 0px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.pizza_desc p{
+	font-size: 14pt;
+}
+
 
 section.meal_deals{
 	max-width: 100%;
-	min-height: 200px;
 	background-color: #fffed5;
+	padding: 1px;
+	display: flex;
 }
+
+div.meal{
+	margin: 30px;
+	width: min-content;
+	border: 1px solid #000;
+}
+
+div.meal .image{
+	width: 500px;
+	height: 250px;
+}
+
+div.meal .image img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.meal_desc{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #fff;
+}
+
+.meal_desc p{
+	padding: 15px;
+	font-size: 14pt;
+}
+
+.meal_desc h4{
+	font-size: x-large;
+	margin: 0px;
+	padding: 15px;
+}
+
+
 
 section.sides_desserts{
 	max-width: 100%;

@@ -16,13 +16,12 @@ body{
 	font-family:	sans-serif;
 }
 
-h3, h1, h2{
+h3, h1, h2, h4{
 	padding: 0;
 	margin: 0;
 }
 
 p{
-	width:	max-content;
 	padding: 0;
 	margin: 0;
 }
@@ -59,7 +58,6 @@ div.logo{
 div.logo img{
 	filter: invert();
 	width: 400px;
-
 }
 
 ul.links{
