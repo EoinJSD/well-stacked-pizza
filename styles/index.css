@@ -1,9 +1,19 @@
-/*
+/**
+Colours
 Primary Green: #1C5253
- - Dark - #00292B
+ -D- #00292B
+ -L- #4B7F7F
 Secondary Red: #B5174A
+ -D- #7F0023
+ -L- #EC5375
 Tertiary Beig: #FFFED5
-*/
+ -D- #CCCBA4
+ -L- #FFFFFF
+Tertiary Whte: #FFFFFF
+ -D- #CCCCCC
+ -L- #FFFFFF
+**/
+
 body{
     display: flex;
     align-content: normal;
@@ -36,32 +46,57 @@ div.login_container{
     flex-direction: column;
 }
 
+div.login_container p{
+    padding: 15% 0;
+    max-width: 65%;
+    font-size: 16pt;
+}
+
 div.login_container ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    width: 80%;
 }
 
 div.login_container ul li{
     text-align: center;
     padding: 15px 10px;
-    width: 200px;
-}
-
-div.login_container ul li:hover{
-    background-color: rgb(0, 107, 107);
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 2px;
+    margin: 15px;
+    transition: 0.3s;
 }
 
 div.login_container ul li a{
     text-decoration: none;
-    color: brown;
     padding: 8% 20%;
+    color: #FFFED5;
+    font-family: Reklame;
+    font-size: 18pt;
 }
 
-div.login_container ul li a:hover{
-    text-decoration: none;
-    color: rgb(255, 212, 93);
-    padding: 8%;
+div.login_container ul li:hover{
+    filter: opacity(0.8);
+}
+
+li#sign_in{
+   background-color: #CCCBA4; 
+   border-color:#FFFFFF;
+}
+li#sign_in a{
+    color: #B5174A;
+}
+
+li#new_customer{
+    background-color: #B5174A;
+    border-color:#EC5375;
+}
+
+li#quick_pizza{
+    background-color: #1C5253;
+    border-color:#4B7F7F;
 }
 
 a.other_info{

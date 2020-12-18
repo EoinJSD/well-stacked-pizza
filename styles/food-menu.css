@@ -1,11 +1,20 @@
 /* Anything specific to Food Menu page will go in here */
 
-/*
+/**
+Colours
 Primary Green: #1C5253
- - Dark - #00292B
+ -D - #00292B
+ -L - #4B7F7F
 Secondary Red: #B5174A
+ -D - #7F0023
+ -L - #EC5375
 Tertiary Beig: #FFFED5
-*/
+ -D - #CCCBA4
+ -L - #FFFFFF
+Tertiary Whte: #FFFFFF
+ -D - #CCCCCC
+ -L - #FFFFFF
+**/
 
 
 div.menu_filter{
