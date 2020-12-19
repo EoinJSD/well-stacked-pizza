@@ -51,9 +51,9 @@ div.quick_pizza_container p{
 /* Signature Pizzas*/
 section.signature_pizzas{
 	background-color: #1C5253;
-	display: flex;
-	overflow-x: auto;
-	padding: 100px 0px;
+    display: flex;
+    overflow-x: auto;
+    padding: 150px 0px 0px 0px;
 }
 
 div.pizza{
@@ -62,8 +62,8 @@ div.pizza{
 }
 
 div.pizza .image{
-	height: 280px;
-    width: 288px;
+	height: 240px;
+    width: 240px;
 }
 
 div.pizza .image img{
