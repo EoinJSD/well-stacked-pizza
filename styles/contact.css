@@ -76,7 +76,6 @@ input[type=submit] {
 }
 
 /* Map section */
-
 section.location{
     width: 100%;
 }
@@ -92,7 +91,7 @@ div.location_container h4{
 }
 
 div.map{
-    max-width: 55%;
+    width: 55%;
     margin: auto;
     text-align: center;
 }
@@ -101,3 +100,21 @@ div.map iframe{
     width: 100%;
     border: 1px solid #1C5253;
 }
+
+@media only screen and (max-width: 800px) {
+    div.location_container{
+        max-width: 90%;
+    }
+    
+    div.map{
+      width: 95%;
+    }
+
+    section.contact_form{
+        padding-top: 10px;
+    }
+    
+    form textarea{
+        width: 95%;
+    }
+  }

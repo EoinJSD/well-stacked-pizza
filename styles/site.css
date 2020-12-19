@@ -111,3 +111,13 @@ ul.links li a{
 	color: #ffffff;
 	font-size: 20pt;
 }
+
+@media only screen and (max-width: 800px) {
+	div.logo{
+		width: 300px;
+	}
+
+	ul.links li a{
+		font-size: 16pt;
+	}
+  }
