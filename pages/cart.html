@@ -18,17 +18,76 @@
 				</ul>
 			</nav>
 		</header>
+
+
 		<main class="container">
-			<div class="cart">
-				<p class="dialogue">Your cart is empty</p>
-				<hr>
-			</div>
-			<div class="total">
-				<span>Total</span>
-				<p>€0.00</p>
-			</div>
-			<button>Start Your Order</button>
-			<button>Confirm & Pay</button>
-		</main>		
+			<section class="header">
+				<div>
+					<h1 class="page_heading">Your Order</h1>
+					<button onclick="altView()">Alt View</button>
+				</div>				
+			</section>
+
+			<section class="order">
+				<div class="summary">
+					<div id="fullOrder" class="full_order">
+						<div class="item">
+							<div class="details">
+								<h4>Stacked Veggie</h4>
+								<ul>
+									<li>12"</li>
+								</ul>
+							</div>
+							<div class="price">
+								<p>€12.99</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="details">
+								<h4>Stacked Veggie</h4>
+								<ul>
+									<li>12"</li>
+								</ul>
+							</div>
+							<div class="price">
+								<p>€7.99</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="details">
+								<h4>Quick Pizza</h4>
+								<ul>
+									<li>16"</li>
+									<li>Regular Base</li>
+									<li>Topping 1: "topping 1"</li>
+									<li>Topping 2: "topping 2"</li>
+									<li>Topping 3: "topping 3"</li>
+								</ul>
+							</div>
+							<div class="price">
+								<p>€16.99</p>
+							</div>
+						</div>
+					</div>
+					<p id="emptyOrder" class="empty hidden">Your cart is empty</p>
+				</div>
+			</section>
+			<section class="order">
+				<div class="total">
+					<h4>Total</h4>
+					<p>€0.00</p>
+					<a id="startOrder" class="start_order hidden">Start Your Order</a>
+					<a id="addMore" class="add_more">Add more to your order</a>
+					<a class="confirm_pay">Confirm & Pay</a>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<p>Developed by EoinJSD | Powered by hunger</p>
+			<a href="../index.html">&#x21E6;</a>
+		</footer>
+
+		<script type="text/javascript" src="../scripts/cart.js"></script>
 	</body>
 </html>
