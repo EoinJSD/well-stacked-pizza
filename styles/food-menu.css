@@ -16,17 +16,64 @@ Tertiary Whte: #FFFFFF
  -L - #FFFFFF
 **/
 
+body{
+    background-color: #1C5253;
+}
 
-div.menu_filter{
-    max-width: 100%;
-    min-height: 200px;
+section.filters{
+    width: 100%;
     background-color: #00292B;
 }
 
+section.filters div{
+    max-width: 1240px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+section.filters div h1{
+    width: 100%;
+}
+
+ul.filter_options{
+    padding: 15px;
+    max-width: 900px;
+    list-style-type: none;
+}
+
+ul.filter_options li{
+    display: inline;
+    margin: 0 10px;
+}
+
+ul.filter_options li:hover{
+    filter: brightness(1.5);
+    cursor: pointer;
+}
+
+.filter{
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #CCCBA4;
+    color: #CCCBA4;
+    padding: 10px;
+}
+
+.active{
+    background-color: #CCCBA4; 
+    border-color:#FFFFFF;
+    color: #B5174A;
+}
+
+
+
 div.menu{
-    background-color: #1C5253;
-    max-width: 100%;
-    min-height: 600px;
+    max-width: 1240px;
+    margin: auto;
 }
 
 div.option{
