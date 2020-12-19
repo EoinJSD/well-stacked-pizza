@@ -1,0 +1,103 @@
+/**
+Colours
+Primary Green: #1C5253
+ -D - #00292B
+ -L - #4B7F7F
+Secondary Red: #B5174A
+ -D - #7F0023
+ -L - #EC5375
+Tertiary Beig: #FFFED5
+ -D - #CCCBA4
+ -L - #FFFFFF
+Tertiary Whte: #FFFFFF
+ -D - #CCCCCC
+ -L - #FFFFFF
+**/
+
+body{
+    background-color: #FFFED5;
+}
+
+section.header{
+    width: 100%;
+    background-color: #00292B;
+}
+
+section.header div{
+    max-width: 1240px;
+    margin: auto;
+    display: flex;
+}
+
+section.contact_form{
+    width: 100%;
+    padding-top: 30px;
+}
+
+section.contact_form form{
+    max-width: 1240px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+form textarea{
+    width: 60%;
+    height: 200px;
+    margin: auto;
+}
+
+form h4{
+    color: #B5174A;
+    font-size: 24pt;
+    width: 100%;
+    margin: 15px;;
+}
+
+div.email_submit{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    margin: 15px auto;
+}
+
+input[type=submit] { 
+    border: 0; 
+    color: #B5174A;
+    background-color: #CCCBA4; 
+    border-radius: 30px;
+    padding: 12px;
+    font-size: 16pt;
+    font-family: Oregano;
+}
+
+/* Map section */
+
+section.location{
+    width: 100%;
+}
+
+div.location_container{
+    max-width: 50%;
+    margin: auto;
+}
+
+div.location_container h4{
+    color: #B5174A;
+    font-size: 20pt;
+}
+
+div.map{
+    max-width: 55%;
+    margin: auto;
+    text-align: center;
+}
+
+div.map iframe{
+    width: 100%;
+    border: 1px solid #1C5253;
+}
