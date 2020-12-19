@@ -20,10 +20,18 @@
 		</header>
 		
 		<main class="container">
-
-			<div class="menu_filter">
-				<h1 class="page_heading">Food Menu</h1>
-			</div>
+			<section class="filters">
+				<div>
+					<h1 class="page_heading">Food Menu</h1>
+					<ul id="filterOptions" class="filter_options">
+						<li id="filter" class="filter active">Signature Pizzas</li>
+						<li id="filter" class="filter">Sides</li>
+						<li id="filter" class="filter">Desserts</li>
+						<li id="filter" class="filter">Milkshakes</li>
+						<li id="filter" class="filter">Drinks</li>
+					</ul>
+				</div>
+			</section>
 			<div class="menu">
 				<div class="option">
 					<div class="image">
@@ -38,7 +46,7 @@
 								<a href="#">edit</a>
 							</div>
 							<div class="interactions">
-								<p>333333</p>
+								<p>&#x2665; &#x2665; &#x2665; &#x2665;</p>
 								<form action="#size">
 									<select id="size" name="size">
 										<option value="7">7"</option>
@@ -51,9 +59,70 @@
 								</form>
 							</div>
 					</div>
+				</div>
 
+				<div class="option">
+					<div class="image">
+						<img src="../resources/pizzas/Deluxe.jpg" alt="Deluxe">
+					</div>
+					<div class="info_container">
+							<div>
+								<div class="option_desc">
+									<h4>Deluxe</h4>
+									<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+								</div>
+								<a href="#">edit</a>
+							</div>
+							<div class="interactions">
+								<p>&#x2665; &#x2665; &#x2665;</p>
+								<form action="#size">
+									<select id="size" name="size">
+										<option value="7">7"</option>
+										<option value="9">9"</option>
+										<option value="12">12"</option>
+										<option value="16">16"</option>
+										<option value="22">22"</option>
+									</select>
+									<input type="submit" value="+ Add">
+								</form>
+							</div>
+					</div>
+				</div>
+
+				<div class="option">
+					<div class="image">
+						<img src="../resources/pizzas/Deluxe.jpg" alt="Deluxe">
+					</div>
+					<div class="info_container">
+							<div>
+								<div class="option_desc">
+									<h4>Deluxe</h4>
+									<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+								</div>
+								<a href="#">edit</a>
+							</div>
+							<div class="interactions">
+								<p>&#x2665; &#x2665; &#x2665;</p>
+								<form action="#size">
+									<select id="size" name="size">
+										<option value="7">7"</option>
+										<option value="9">9"</option>
+										<option value="12">12"</option>
+										<option value="16">16"</option>
+										<option value="22">22"</option>
+									</select>
+									<input type="submit" value="+ Add">
+								</form>
+							</div>
+					</div>
 				</div>
 			</div>
 		</div>
+
+		<footer>
+			<p>Developed by EoinJSD | Powered by hunger</p>
+			<a href="../index.html">&#x21E6;</a>
+		</footer>
+<script type="text/javascript" src="../scripts/food_menu.js"></script>
 	</body>
 </html>
